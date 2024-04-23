@@ -1,0 +1,1 @@
+This repository contains urdf / xml files of robots, hands, SMPL-X, Mano, etc.
