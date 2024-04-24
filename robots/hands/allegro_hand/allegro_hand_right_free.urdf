@@ -48,19 +48,19 @@
     <parent link="allegro_root0"/>
     <child link="allegro_root1"/>
     <axis xyz="1 0 0"/>
-    <limit effort="1" lower="-0.5" upper="0.5" velocity="0"/>
+    <limit effort="1" lower="-5.0" upper="5.0" velocity="0"/>
   </joint>
   <joint name="y_joint" type="prismatic">
     <parent link="allegro_root1"/>
     <child link="allegro_root2"/>
     <axis xyz="0 1 0"/>
-    <limit effort="1" lower="-0.5" upper="0.5" velocity="0"/>
+    <limit effort="1" lower="-5.0" upper="5.0" velocity="0"/>
   </joint>
   <joint name="z_joint" type="prismatic">
     <parent link="allegro_root2"/>
     <child link="allegro_root3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1" lower="-0.5" upper="0.5" velocity="0"/>
+    <limit effort="1" lower="-5.0" upper="5.0" velocity="0"/>
   </joint>
   <joint name="x_rotation_joint" type="revolute">
     <parent link="allegro_root3"/>
