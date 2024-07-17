@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<robot name="smallbowl1">
-  <link name="smallbowl1">
+<robot name="bottle">
+  <link name="bottle">
     <visual>
       <origin xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="smallbowl1.obj" scale="1.0 1.0 1.0"/>
+        <mesh filename="bigdustpan.obj" scale="1.0 1.0 1.0"/>
       </geometry>
     </visual>
-    <collision concave = "yes">
+    <collision>
       <origin xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="smallbowl1.obj" scale="1.0 1.0 1.0"/>
+        <mesh filename="bigdustpan.obj" scale="1.0 1.0 1.0"/>
       </geometry>
     </collision>
     <inertial>

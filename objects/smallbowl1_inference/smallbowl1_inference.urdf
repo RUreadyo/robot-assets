@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
-<robot name="smallbowl1">
-  <link name="smallbowl1">
+<robot name="smallbowl1_inference">
+  <link name="smallbowl1_inference">
     <visual>
       <origin xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="smallbowl1.obj" scale="1.0 1.0 1.0"/>
+        <mesh filename="smallbowl1_inference.obj" scale="1.0 1.0 1.0"/>
       </geometry>
+      <material name="custom_color">
+        <color rgba="0.8 0.1 0.2 1"/>
+      </material>
     </visual>
     <collision concave = "yes">
       <origin xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="smallbowl1.obj" scale="1.0 1.0 1.0"/>
+        <mesh filename="smallbowl1_inference.obj" scale="1.0 1.0 1.0"/>
       </geometry>
     </collision>
     <inertial>
