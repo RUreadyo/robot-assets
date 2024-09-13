@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <robot name="allegro_right">
   <material name="black">
-    <color rgba="0.2 0.2 0.2 1"/>
+    <color rgba="1 0.75 0.25 1"/>
   </material>
   <material name="white">
-    <color rgba=".9 .9 .1 1"/>
+    <color rgba="1 0.85 0.2 1"/>
   </material>
   <link name="allegro_root0">
     <inertial>
